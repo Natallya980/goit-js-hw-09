@@ -1,0 +1,69 @@
+.feedback-form {
+  width: 360px;
+  padding: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label input {
+  display: block;
+  margin-top: 8px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+}
+
+input:hover {
+  border-color: #000000;
+}
+
+input::placeholder {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+input:focus::placeholder {
+  opacity: 1;
+}
+
+label textarea {
+  display: block;
+  margin-top: 8px;
+  width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+textearea:hover {
+  border-color: #000000;
+}
+
+textarea::placeholder {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+textarea:focus::placeholder {
+  opacity: 1;
+}
+
+button {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}

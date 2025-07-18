@@ -1,0 +1,46 @@
+.sl-overlay {
+  background: rgba(46, 47, 66, 0.8) !important;
+}
+
+.sl-wrapper .sl-counter {
+  color: #ffffff !important;
+}
+
+.sl-wrapper .sl-close {
+  color: #ffffff !important;
+}
+
+.sl-wrapper .sl-navigation button {
+  color: #ffffff !important;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 100px 0;
+  margin: 0 auto;
+  gap: 24px;
+  width: 100%;
+  max-width: 1128px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item {
+  flex-basis: ((100% - 48px) / 3);
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 360px;
+  height: auto;
+  aspect-ratio: 6 / 5;
+  object-fit: cover;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
